@@ -1,7 +1,12 @@
 package helper
 
-import "fmt"
+var Version = "1.0.0"
+var Application = "golang"
+
+func SayGoodbye(name string) string {
+	return "Good Bye " + name
+}
 
 func SayHello(name string) string {
-	return fmt.Sprintf("Hello, %s", name)
+	return "Hello " + name
 }
